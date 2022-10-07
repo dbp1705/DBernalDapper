@@ -42,7 +42,7 @@ namespace CRUDDapper
                         Console.WriteLine("****************************************************//// ADIOS ////****************************************************");
                         Environment.Exit(0);
                         break;
-                    default: Console.WriteLine($"Esto no debe salir"); break;
+                    default: Console.WriteLine($"Esta opción no cuenta"); break;
                 }
                 Console.ReadLine();
             } while (true);
